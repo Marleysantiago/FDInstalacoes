@@ -1,0 +1,36 @@
+.sobre{
+    padding-top: 5rem;
+    background-image: linear-gradient(140deg, #00308F, #007FFF, #6A5ACD,#0039a6,#1a1f71,#00BFFF,#15f4ee);
+    color: whitesmoke;
+    
+}
+.fundacao-img{
+    height: 60%;
+    width: 100%;
+}
+.sobre-nos-img{
+    height: 60%;
+    width: 100%;
+}
+.equipe-img{
+    height: 60%;
+    width: 100%;
+}
+.fundacao{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.sobre-nos{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.equipe{
+    text-align: center;
+}
+.text-centre{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

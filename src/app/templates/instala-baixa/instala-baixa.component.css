@@ -1,0 +1,58 @@
+.instala-baixo{
+    padding-top: 5rem;
+    background-image: linear-gradient(140deg, #00308F, #007FFF, #6A5ACD,#0039a6,#1a1f71,#00BFFF,#15f4ee);
+}
+
+.img-instala{
+    height: 100%;
+    width: 120%;
+}
+
+.title{
+    color: whitesmoke;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fundo-img3{
+    background-image: url(../../../assets/l3.webp);
+}
+.margem{
+    margin-top: 3rem;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.instalacoes-img{
+    height: 100%;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    margin-left: 3px;
+}
+
+@media only screen and (max-device-width: 960px) {
+    .instalacoes-img{
+        display: none;
+    }
+    .img-instala{
+        height: 100%;
+        width: 120%;
+    }
+    }
+
+    
+@media only screen and (max-device-width: 768px) {
+    .fonte{
+        font-size: 1.4rem;
+    }
+    }
+
+    @media only screen and (max-device-width: 576px) {
+        .fonte{
+            font-size: 0.9rem;
+        }
+        }
