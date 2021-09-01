@@ -10,7 +10,7 @@
 
 .title{
     color: whitesmoke;
-    height: 100%;
+    
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -18,6 +18,8 @@
 }
 .fundo-img3{
     background-image: url(../../../assets/l3.webp);
+    width: 100%;
+    height: 100%;
 }
 .margem{
     margin-top: 3rem;
@@ -42,6 +44,9 @@
         height: 100%;
         width: 120%;
     }
+    ..instalacoes-tipos{
+        margin-left: 0.5rem;
+    }
     }
 
     
@@ -49,10 +54,16 @@
     .fonte{
         font-size: 1.4rem;
     }
+    .instalacoes-tipos{
+        margin-left: 0.5rem;
+    }
     }
 
     @media only screen and (max-device-width: 576px) {
         .fonte{
-            font-size: 0.9rem;
+            font-size: 1.5rem;
+        }
+        .instalacoes-tipos{
+            margin-left: 0.5rem;
         }
         }
